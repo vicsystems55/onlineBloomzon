@@ -21,6 +21,8 @@ Auth::routes(['verify' => true]);
 
 Route::get('/add-to-cart/{productId}', 'CartController@add')->name('cart.add')->middleware('auth');
 
+
+
 Route::get('/destroy/{productId}', 'CartController@destroy')->name('cart.destroy')->middleware('auth');
 
 Route::get('/cart', 'CartController@index')->name('cart')->middleware('auth');
