@@ -96,7 +96,7 @@ class CartController extends Controller
         $user_id = Auth::user()->id;
         \Cart::session($user_id)->remove($productId);
 
-        return back();
+          return back();
 
 
     }
