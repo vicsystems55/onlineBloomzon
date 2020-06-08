@@ -94,6 +94,8 @@ class CartController extends Controller
      public function destroy($productId)
     {
         $user_id = Auth::user()->id;
+        
+        
         \Cart::session($user_id)->remove($productId);
 
           return back();
