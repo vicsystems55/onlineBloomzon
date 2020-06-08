@@ -153,7 +153,7 @@
                         <div class="widgets-wrap d-flex justify-content-end">
                             
                             
-                          <div class="p-5 col-4 font-weight-bold">
+                          <div class="p-5 col-4 font-weight-bold ">
 
                             <?php 
 
