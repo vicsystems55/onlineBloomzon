@@ -8,7 +8,7 @@
     <div class="row justify-content-center">
 
         <div class="col-md-5">
-            <div class="p-5"></div>
+            <div class="p-3"></div>
            
             <div class="card shadow">
                 
@@ -65,8 +65,8 @@
                                     <div class="form-check">
                                     <input class="form-check-input" type="hidden" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
-                                    <label class="form-check-label" for="remember">
-                                       <a class="text-center" href="{{ route('password.request') }}">
+                                    <label class="form-check-label float-right" for="remember">
+                                       <a class="text-center float-right" href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                     </label>
@@ -76,15 +76,18 @@
                             </div>
                         </div>
 
+
+
                         <div class="form-group mb-0">
                             <div class="">
-                                <button type="submit" class="btn btn-primary btn-block shadow">
+
+                                <button type="submit" class="btn btn-outline-primary btn-block ">
                                     {{ __('Login') }}
                                 </button>
                                
 
                                 
-                                <a class="btn btn-warning btn-block shadow" href="/register">
+                                <a class="btn btn-outline-dark btn-block shadow" href="/register">
                                     Create an Account?
                                 </a>
 
@@ -93,6 +96,33 @@
                                 @endif
                             </div>
                         </div>
+
+                       <div class="container">
+                        <div class="p-3"></div>
+                           <div class="row">
+                               <div class="col"><hr></div>
+                            <div class="col font-weight-bold">Social Login</div>
+                             <div class="col"><hr></div>
+                           </div>
+
+                           <div class="container">
+                        <div class="p-2"></div>
+                           <div class="row">
+                               <div class="col">
+                                   <button class="btn btn-block btn-danger shadow font-weight-normal"><i class="fab fa-google"></i><br>Google</button>
+                               </div>
+                            <div class="col">
+                                <button class="btn btn-block btn-primary shadow font-weight-normal"><i class="fab fa-facebook"></i><br>Facebook</button>
+                            </div>
+                             <div class="col">
+                                 <button class="btn btn-block btn-info shadow font-weight-normal text-light"><i class="fab fa-twitter"></i><br>Twitter</button>
+
+                             </div>
+                           </div>
+                       </div>
+
+
+                       </div>
                     </form>
                 </div>
             </div>
