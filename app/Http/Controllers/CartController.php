@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\product;
 use Auth;
 use Validator;
+use Paystack;
 
 class CartController extends Controller
 {

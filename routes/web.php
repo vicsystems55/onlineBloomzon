@@ -19,6 +19,8 @@ Route::get('/', function () {
 
 Auth::routes(['verify' => true]);
 
+Route::post('/pay', 'PaymentController@redirectToGateway')->name('pay');
+
 Route::get('/add-to-cart/{productId}', 'CartController@add')->name('cart.add')->middleware('auth');
 
 

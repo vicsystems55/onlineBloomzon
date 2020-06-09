@@ -9,6 +9,7 @@ use App\Message;
 use App\Notification;
 use App\product;
 use Auth;
+use Paystack;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 
