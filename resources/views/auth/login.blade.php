@@ -109,13 +109,13 @@
                         <div class="p-2"></div>
                            <div class="row">
                                <div class="col">
-                                   <button class="btn btn-block btn-danger shadow font-weight-normal"><i class="fab fa-google"></i><br>Google</button>
+                                   <a href="/auth/google" class="btn btn-block btn-danger shadow font-weight-normal"><i class="fab fa-google"></i><br>Google</a>
                                </div>
                             <div class="col">
-                                <button class="btn btn-block btn-primary shadow font-weight-normal"><i class="fab fa-facebook"></i><br>Facebook</button>
+                                <a href="" class="btn btn-block btn-primary shadow font-weight-normal"><i class="fab fa-facebook"></i><br>Facebook</a>
                             </div>
                              <div class="col">
-                                 <button class="btn btn-block btn-info shadow font-weight-normal text-light"><i class="fab fa-twitter"></i><br>Twitter</button>
+                                 <a href="" class="btn btn-block btn-info shadow font-weight-normal text-light"><i class="fab fa-twitter"></i><br>Twitter</a>
 
                              </div>
                            </div>
