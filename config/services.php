@@ -33,7 +33,7 @@ return [
     'google' => [
     'client_id' => env('457047131074-nrommi1ueu727a3vo5988lrl8o83h4k5.apps.googleusercontent.com'),
     'client_secret' => env('zpTjecERTXd7kJMZ5iDP3cBB'),
-    'redirect' => 'http://bloomzon.vicsystems.com.ng/googlelogin/callback/google',
+    'redirect' => 'http://bloomzon.vicsystems.com.ng/auth/google/callback',
 ],
 
 ];
