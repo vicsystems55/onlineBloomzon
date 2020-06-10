@@ -86,6 +86,6 @@ Route::get('/becomeSeller', 'BuyersPageController@becomeSeller')->name('becomeSe
 Route::get('/api/ingredients', 'ingredientController@index')->name('ingredients');
 
 
-Route::get('auth/google', 'SocialiteControllerr@redirectToGoogle');
+Route::get('auth/google', 'SocialiteController@redirectToGoogle');
 
-Route::get('auth/google/callback', 'SocialiteControllerr@handleGoogleCallback');
+Route::get('auth/google/callback', 'SocialiteController@handleGoogleCallback');
