@@ -85,7 +85,7 @@ Route::get('/reviews', 'BuyersPageController@reviews')->name('reviews');
 
 Route::get('/becomeSeller', 'BuyersPageController@becomeSeller')->name('becomeSeller');
 
-Route::get('auth/google', 'SocialiteController@redirectToGoogle');
+Route::get('/auth/google', 'SocialiteController@redirectToGoogle');
 
-Route::get('auth/google/callback', 'SocialiteController@handleGoogleCallback');
+Route::get('/auth/google/callback', 'SocialiteController@handleGoogleCallback');
 
