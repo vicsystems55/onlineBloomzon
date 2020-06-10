@@ -89,4 +89,10 @@ Route::get('/api/ingredients', 'ingredientController@index')->name('ingredients'
 
 Route::get('/auth/google', 'SocialiteController@redirectToGoogle');
 
+<<<<<<< HEAD
 Route::get('/auth/google/callback', 'SocialiteController@handleGoogleCallback');
+=======
+Route::get('auth/google', 'SocialiteController@redirectToGoogle');
+
+Route::get('auth/google/callback', 'SocialiteController@handleGoogleCallback');
+>>>>>>> 1d112951a4cffc72ad190779a653c90b0835b3da
