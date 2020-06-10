@@ -83,7 +83,7 @@ Route::get('/reviews', 'BuyersPageController@reviews')->name('reviews');
 
 Route::get('/becomeSeller', 'BuyersPageController@becomeSeller')->name('becomeSeller');
 
-Route::get('/api/ingredients', 'ingredientController@index')->name('ingredients');
+
 
 
 Route::get('auth/google', 'SocialiteController@redirectToGoogle');
