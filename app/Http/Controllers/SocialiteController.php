@@ -14,7 +14,7 @@ public function redirectToGoogle()
     return Socialite::driver('google')->redirect();
 }
  
-public function callback()
+public function handleGoogleCallback()
 {
            
     $getInfo = Socialite::driver('google')->user();
@@ -23,7 +23,7 @@ public function callback()
  
     auth()->login($user);
  
-    return redirect()->to('/home');
+    return redirect()->to('/dashboard');
  
 }
 function createUser($getInfo,$provider){
