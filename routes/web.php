@@ -89,3 +89,13 @@ Route::get('/auth/google', 'SocialiteController@redirectToGoogle');
 
 Route::get('/auth/google/callback', 'SocialiteController@handleGoogleCallback');
 
+
+Route::get('/auth/facebook', 'fbkLoginController@redirectToFacebook');
+
+Route::get('/auth/facebook/callback', 'fbkLoginController@handleFacebookCallback');
+
+
+Route::get('/auth/twitter', 'twitLoginController@redirectToTwitter');
+
+Route::get('/auth/twitter/callback', 'twitLoginController@handleTwitterCallback');
+

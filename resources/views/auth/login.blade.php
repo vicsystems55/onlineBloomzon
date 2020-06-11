@@ -112,10 +112,10 @@
                                    <a href="/auth/google" class="btn btn-block btn-danger shadow font-weight-normal"><i class="fab fa-google"></i><br>Google</a>
                                </div>
                             <div class="col">
-                                <a href="" class="btn btn-block btn-primary shadow font-weight-normal"><i class="fab fa-facebook"></i><br>Facebook</a>
+                                <a href="/auth/facebook" class="btn btn-block btn-primary shadow font-weight-normal"><i class="fab fa-facebook"></i><br>Facebook</a>
                             </div>
                              <div class="col">
-                                 <a href="" class="btn btn-block btn-info shadow font-weight-normal text-light"><i class="fab fa-twitter"></i><br>Twitter</a>
+                                 <a href="/auth/twitter" class="btn btn-block btn-info shadow font-weight-normal text-light"><i class="fab fa-twitter"></i><br>Twitter</a>
 
                              </div>
                            </div>
